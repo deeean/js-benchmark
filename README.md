@@ -9,18 +9,19 @@ This repository contains a collection of benchmarks for JavaScript engines.
 - deno v1.25.1
 
 ```
-┌────────────────────────┬─────────┬──────────┬──────────┐
-│        (index)         │ ts-node │   bun    │   deno   │
-├────────────────────────┼─────────┼──────────┼──────────┤
-│        while.ts        │  '5ms'  │  '10ms'  │  '4ms'   │
-│ while-cached-length.ts │  '5ms'  │  '10ms'  │  '4ms'   │
-│         for.ts         │  '5ms'  │  '10ms'  │  '4ms'   │
-│  for-cached-length.ts  │  '5ms'  │  '10ms'  │  '6ms'   │
-│       for-in.ts        │ '947ms' │ '2208ms' │ '1150ms' │
-│       for-of.ts        │ '90ms'  │  '26ms'  │  '66ms'  │
-│      for-each.ts       │ '69ms'  │  '10ms'  │  '54ms'  │
-│         map.ts         │ '316ms' │  '21ms'  │ '364ms'  │
-│       reverse.ts       │  '7ms'  │  '6ms'   │  '8ms'   │
-│       shuffle.ts       │ '267ms' │  '99ms'  │ '322ms'  │
-└────────────────────────┴─────────┴──────────┴──────────┘
+┌────────────────────────┬──────────┬──────────┬──────────┐
+│        (index)         │ ts-node  │   bun    │   deno   │
+├────────────────────────┼──────────┼──────────┼──────────┤
+│        while.ts        │  '6ms'   │  '10ms'  │  '6ms'   │
+│ while-cached-length.ts │  '5ms'   │  '11ms'  │  '6ms'   │
+│         for.ts         │  '6ms'   │  '10ms'  │  '6ms'   │
+│  for-cached-length.ts  │  '6ms'   │  '11ms'  │  '4ms'   │
+│       for-in.ts        │ '981ms'  │ '2378ms' │ '1150ms' │
+│       for-of.ts        │  '91ms'  │  '26ms'  │  '68ms'  │
+│      for-each.ts       │  '71ms'  │  '10ms'  │  '54ms'  │
+│         map.ts         │ '322ms'  │  '22ms'  │ '368ms'  │
+│        sort.ts         │ '6410ms' │ '1841ms' │ '5722ms' │
+│       reverse.ts       │  '7ms'   │  '6ms'   │  '6ms'   │
+│       shuffle.ts       │ '291ms'  │ '101ms'  │ '318ms'  │
+└────────────────────────┴──────────┴──────────┴──────────┘
 ```

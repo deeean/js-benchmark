@@ -21,6 +21,7 @@ const scripts = [
   'for-of.ts',
   'for-each.ts',
   'map.ts',
+  'sort.ts',
   'reverse.ts',
   'shuffle.ts',
 ];
