@@ -7,9 +7,7 @@
 
   const startTime = performance.now();
 
-  for (const it of data) {
-
-  }
+  data.find((it) => it === 5_000_000);
 
   console.log(performance.now() - startTime);
 }

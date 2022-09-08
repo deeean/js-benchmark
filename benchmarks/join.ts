@@ -7,9 +7,7 @@
 
   const startTime = performance.now();
 
-  for (const it of data) {
-
-  }
+  data.join();
 
   console.log(performance.now() - startTime);
 }

@@ -7,9 +7,7 @@
 
   const startTime = performance.now();
 
-  for (const it of data) {
-
-  }
+  data.filter(it => it % 2 === 0);
 
   console.log(performance.now() - startTime);
 }

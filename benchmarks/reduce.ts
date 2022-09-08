@@ -7,9 +7,9 @@
 
   const startTime = performance.now();
 
-  for (const it of data) {
-
-  }
+  data.reduce((a, b) => {
+    return a + b;
+  });
 
   console.log(performance.now() - startTime);
 }
